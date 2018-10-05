@@ -1,0 +1,4 @@
+git+https://github.com/mit-nlp/MITIE.git
+
+rasa_nlu
+jieba
