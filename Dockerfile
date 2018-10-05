@@ -6,6 +6,6 @@ WORKDIR /usr/src/app
 
 RUN pip install --no-cache-dir -r requirements.txt
 
-EXPOSE 5500
+EXPOSE 5000
 
 CMD [ "./run_server.bash" ]
