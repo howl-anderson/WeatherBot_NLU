@@ -1,3 +1,5 @@
+git+https://github.com/mit-nlp/MITIE.git
+
 attrs==18.2.0
 Automat==0.7.0
 boto3==1.9.16
@@ -22,7 +24,6 @@ jsonschema==2.6.0
 kiwisolver==1.0.1
 klein==17.10.0
 matplotlib==2.2.3
-mitie==0.5.0
 numpy==1.15.2
 packaging==18.0
 pathlib==1.0.1
