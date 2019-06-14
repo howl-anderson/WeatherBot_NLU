@@ -1,4 +1,4 @@
-git+https://github.com/mit-nlp/MITIE.git
+git+https://github.com/howl-anderson/rasa_nlu_addons.git
 
 attrs==18.2.0
 Automat==0.7.0
