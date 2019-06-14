@@ -1,10 +1,10 @@
 language: "zh"
 
 pipeline:
-- name: "nlp_mitie"
-  model: "data/total_word_feature_extractor.dat"
-- name: "tokenizer_jieba"
-- name: "ner_mitie"
-- name: "ner_synonyms"
-- name: "intent_featurizer_mitie"
-- name: "intent_classifier_sklearn"
+  - name: "rasa_nlu_addons.utils.paddle_utils.PaddleNLP"
+  - name: "rasa_nlu_addons.extractors.bilstm_crf_paddle_entity_extractor.BilstmCrfPaddleEntityExtractor"
+    max_steps: none
+    epochs: 100
+  - name: "rasa_nlu_addons.classifiers.text_cnn_paddle_classifier.TextCnnPaddleClassifier"
+    max_steps: none
+    epochs: 100
